@@ -1,0 +1,15 @@
+Q. write SQL query to find total marks of student on there roll no basis
+ 
+-> Select roll_no,sum(marks) as total_marks
+   from student
+   group by roll_no;
+
+=======================================================================
+
+Q. select second highest salary from emp
+ 
+-> select max(sal) from emp where sal < (select max(sal) from emp);
+                or
+   select distinct sal from emp order by sal desc limit 1 offser 1;
+
+=======================================================================

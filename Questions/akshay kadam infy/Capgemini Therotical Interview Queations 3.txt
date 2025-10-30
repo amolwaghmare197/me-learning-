@@ -1,0 +1,72 @@
+A) HSBC Internal -:
+
+1. what is splunk monitor tool for checking logs for production failure how it checks how it works
+2. what is Jenkins pipeline or steps to deploy project or jar file
+3. can you write scripts for Jenkins deploy code
+4. what is statck memory and heap memory
+5. what is container in AWS
+//6. what is method overriding
+//7. which version control tool you used in your project(Git hup)
+8. In Jwt from where you are passing token from header or directly from body
+9. where signature contains in jwt token like third part or other part also what long form of JWT
+//10. what is use of lambda expression how it helps in java 8
+//11. can we use functional interface without lambda expression
+//12. what is use of default and static method in functional interface
+13. Find total marks of student on their roll no basis by using SQL query
+14. find owels from given String using java 8 stream API
+//15. where we use Componant annotation on method level or class level what is use of that
+//16. where we use controller annotation used and what is use of that
+17. how you impleneted JWT in your project 
+18. for writing junit test cases what you have used
+19. what is API gateway why we used in microservice what is benifits of that
+//20. which end to end testing tool you used in your project (Postman)
+//21. which data bases you have worked on
+//22. Difference between Comparable and Comparator
+
+B) TU Internal -:
+
+1. Write a Simple addition program using Functional interface
+2. find first non repeating Character from String using Java 8 Strem API
+//3. what is intermegiate and terminal operation in Java 8
+//4. what is Java 8 Fatures
+//5. what is Springboot annotation
+
+
+C) Discover Internal -:
+
+1. Print 1 to 100 prime no using java 8 stream API
+//2. what is jpa and what methods provided by JPA
+//3. how microservice communicate to each other
+4. what java standard coding practice you followed in your project
+5. how JWT you implemented in your project
+6. do you know about AWS deployment and JIRa
+7. how you created your microservice
+//8. how you handeld global exception in your project
+//9. which Springboot annotation you used in your project
+//10. which test cases annotation you used in your project
+
+D) Capgemini Mock Interview -1
+//1. in multi-threading where to use Synchronization and where to use Join
+2. hibernate methods and how to use in spring project
+3. what is use of kubernatives and steps for CICD pipe lines
+//4. what is use of Autoconfugration annotation and use of Application context
+5. Occurance of character in String and write a controller and pojo class for get users in list in response entity with status code ok
+//6. static and default method in functional interface
+
+E) Capgemini Mock Interview -2
+1. sort the list of String in assending and descending order
+2. create entity,repository,servicec,controller which will return lists of books also return plain text "hello" using getMapping and test it on postman
+3. what it http rest principle
+//4. difference between monolithic and microservices and why microservice is much more useful
+//5. what chanllenges you faced in you project
+//6. why Hibernate more helpful than jdbc
+//7. why companies are shifting more to springboot than spring
+8. Write a Dockerfile to containerize a simple Java Spring Boot application.
+9. Java 8 Features and what is parallel stream when to use
+10. have you hands on on java 11 and java 17
+11. how to make data consistency in DB level
+12. difference between CRUD and JPA Repository
+13. how to implement predicates/consumer using simple function
+14. explain Rest Api/Http Principles
+15. why hibernate introduced over JDBC
+16. CICD Pipe line steps Jenkins scripts and Jenkins pipeline for deploy code

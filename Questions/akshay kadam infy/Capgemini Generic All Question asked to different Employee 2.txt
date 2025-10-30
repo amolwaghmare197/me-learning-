@@ -1,0 +1,242 @@
+Ques: - Application.properties vs Applicatin.yml which you will prefer or why or what the work of both?
+ 
+if we had both in our application which will load first and why?
+Bean Scope
+              Bean Scope defines how many instances of a bean Spring creates and how long they live.
+Bean Life Cycle
+//Ques:-  @Beans is a Java object controlled by spring  container
+Ques: - JIT Compiler: Optimizes performance at runtime by compiling bytecode to native code.
+//Ques: - What is java and what are the main components of java?
+Ques:- Suppose you have a class Employee with a name field. How would you override .equals() to compare two Employee objects by name? 
+Ques:- Autoboxing and Unboxing.
+//Que:- Contract b/w == (Operator) or .equals method (Object class).
+//Now 🔹 How HashMap Auto-Increases Size (Resizing)
+Que: - HashMap/Map
+//Ques: - What is the difference between default method and static method?
+Ques: - What is Cascading?
+Ques: - What is Stack and heap memory difference?
+//Ques: - First level cache and second level cache difference in spring boot?
+//Ques : - Why are linked lists & Array List used?
+Ques: - Try-with-resources is a feature  that simplifies the management of resources like files, sockets, database 
+//Ques: - Functional Interface in java are : 
+Ques: - What is thread dump in Jenkins?
+//Ques: - Deadlock & solution?
+Ques: -Can a JWT be revoked?
+//Ques: -  Threads in java? 
+//Ques: Use of @Autowire or can I Autowire the class without using Autowire.
+//Ques: - How one Microservice communicate to another?
+Ques: - Find the list of students in MYSQL who have second highest marks.
+Ques: - Create a Rest API Endpoints which annotation use will used in Rest Controller.
+Ques: - Group of Numbers of their occurrence in the given list.
+Ans: -  List<Integer> mylist = Arrays.asList(3,1,2,5,3,2,4,6);
+//Ques: - What are the Rest Endpoints used in HTTP Request?
+//Ques: - What is PUT and PATCH in HTTP?
+//Q.check if the string contains only numbers
+//Q.Actuator and how implement
+//Q.Prime number check more efficient approach
+//Q.Synchronisation in java
+Q. Synchronising collections
+Q. HashMap vs hashtable
+Q. How to make hashmap thread safe
+Q. Previous project architecture
+Q. Design patterns all
+Q.More question on microservices
+  Prime no program using java 8
+//@Qualifier
+//@Primary
+//@Enableautoconfiguration
+//@Value
+//Spring boot why we Are using we have java to develop application.
+//Spring  boot support asynchronous 
+//how we can enable asynchronous in spring boot.
+//asynchronous and synchronous  communication
+//@component and @Repository
+Solid design pattern 
+//write Sql query to get Second highest salary.
+//which framework used for junit
+//HTTP error codes
+//What is deadlock & how to prevent?
+//what is difference between Primary key & unique key?
+hibernate State?
+//How to call two DB in spring boot Application.
+//@Transactonal Annotation
+ 
+AWS hand On ?
+ 
+//1. method overloading and Method Overriding
+//2. Runtime  polymorphism vs compile time polymorphism
+ 
+//3.What is immutable. how we can create it.
+4.Output of this 
+String a = "ranjana"
+a = "ajinkya";
+sout(a);
+5. explain this and tell the output
+String a = "ranjana"; 
+String b - "ranjana"
+String c = new String ("ranjana")
+a == b
+a ==c
+a.eq(b)
+a.eq(c)
+ 
+6. explain this and tell the output
+class Employee {
+private String id;
+private String name;
+// setter/getter
+}
+Employee e1 = new Employee ("1", "ranjana");
+Employee e2 = new Employee ("1", "ranjana");
+e1 == e2
+e1.eq(e2)
+ 
+//7.equal() method.
+ 
+//10. spring boot annotation, how spring boot  application start starts
+//11. @Component Scan
+//12. @path variable vs @query param
+ 
+//9. where we can use autowire here
+class Employee {
+private String id;
+private String name;
+private Address address;
+// setter/getter
+}
+//13.To get a list of Employee using Spring Boot and get Employee by ID write application for this
+//14.what is Junit  and can you  tell about some annotation used in junit.
+ 
+//15. @RequestMapping 
+//16. IOC and DI
+//17. who manage spring bean life cycle 
+//18. spring bean scope 
+//19. @component @bean
+17. can we use @component in pojo class
+//18.write post mapping http method 
+//19. java 8 features 
+//20. list, set, Map when we use
+//21. how we connect 2 database in spring boot application 
+22. how we can configure env specific database.
+22. externalize properties configuration 
+23.how we can enable spring security what step need to follow
+ 
+/24.== vs equals()
+ 
+//25.@request Body
+//26.@controller vs @Restcontroller
+//27. Spring Boot stereotype annotations
+//Project- Details of the Last Completed project
+//what is single responsibility principle
+what are the SOLID Principles
+what are the ways we can optimize Spring boot application at start-Up
+we have 1-million-digit Number-write the program or algorithms to find occurrences of each digit
+which Protocol Is used for Rest and SOAP
+//How will you handle concurrent modification exception in Spring boot Application
+//what is @RestController annotation
+//Spring Batch
+JWT token
+how will you resolve bean not identified error in Spring boot app
+how will you log all the events in spring boot app
+we Have Spring boot APP, which is returning large size image in response, how you handle the load if there will 1000 requests for Image fetch
+-----------------------------------------------------------------------------------------------------------
+
+What is the difference between a Plain JAR and a Fat JAR? Which one are you using for deployment?
+
+//How does a private constructor work in Java? Where have you used it?
+
+//Can you explain the Singleton design pattern with real-time use case?
+
+What are the Java 11 features you’ve used in your project?
+
+//What is a functional interface and how is it used with lambda expressions?
+
+//Explain the Spring Bean Life Cycle and how you manage bean scopes in your application.
+
+//How do you handle exception management in Spring Boot
+
+//What are the different ways to call one microservice from another?
+
+10 Which one did you use?How do you implement circuit breaker or retry mechanism in your microservices?
+
+11. How do you deploy a Spring Boot application to AWS Lamb
+
+da?
+
+How does the Lambda function understand which request is coming when using API Gateway?
+
+What was the schema used by your Lambda function to store user data?
+
+What is the purpose of creating a private VPC and how do you secure your Lambda or EC2 inside that?
+
+How do you deploy code to Lambda/ECS using Jenkins pipeline?
+
+16.Can you explain your CI/CD steps?How do you manage environment variables or secrets for your Spring Boot app in AWS?
+
+What monitoring/logging tools did you use in AWS to debug your application?
+
+18 If your application is request-heavy, how did you handle traffic and scale in AWS?How do you do load balancing in your architecture?How does service discovery work in microservice communication?
+
+ 
+
+Input: chars = ["a","a","b","b","c","c","c","a"]
+
+Output: Return 6, and the first 6 characters of the input array should be: ["a","2","b","2","c","3","a","1"]
+
+--------------------------------------------------------------------------------------------------
+
+questions on static method
+
+junit testing question
+
+multithreading ques
+
+//java oops concept
+
+asw ,docker, spring boot
+
+microservices questions.
+
+program on stream api , prime number.
+
+---------------------------------------------------
+
+Prime no program using java 8
+
+//@Qualifier
+
+//@Primary
+
+//@Enableautoconfiguration
+
+//@Value
+
+//Spring boot why we Are using we have java to develop application.
+
+//Spring  boot support asynchronous
+
+//how we can enable asynchronous in spring boot.
+
+//asynchronous and synchronous  communication
+
+//@component and @Repository
+
+Solid design pattern
+
+write Sql query to get Second highest salary.
+
+//which framework used for junit
+
+//HTTP error codes
+
+//What is deadlock & how to prevent?
+
+//what is difference between Primary key & unique key?
+
+//hibernate State?
+
+How to call two DB in spring boot Application.
+
+//@Transactonal Annotation
+
+AWS hands on experience.

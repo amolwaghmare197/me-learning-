@@ -1,0 +1,125 @@
+1. Find Index of Given Key in Sorting Array with Optimal Time Complexicity o(log n)
+      eg -: i/p = int [] arr = {20,34,56,110,120}; int key = 34;
+	    o/p = 1 because index of 34 is 1
+      eg -: i/p = int [] arr = {20,34,56,110,120}; int key = 341;
+	    o/p = index not found because 341 is not present in array
+
+2. Buy and Sell LeatCode Coding Question Find Maximum Profit from given int array
+//3. Check No is Prime or not
+4. Write Functional Interface Adding Program (to just check how lambda expression work and functional interface work)
+5. Dimond Ambuigity Problem(Write A program for two interfaces having same method name then how to implemnts int class how to call specific method)
+6. if String Containt Duplicate Character return true else return false
+      eg -: i/p = String s = "ABCD"; 
+	    o/p = false (not containt any dup char)
+      eg -: i/p = String s = "ABCDA";
+            o/p = true; (A is dup)
+7. write a program which will return index of first non repeating character from String (if all character is repeated return -1)
+	eg -: i/p = String s = "racecars"
+	      o/p = 3 (r is first character from string which will non repeated and its index is 3)
+8. Write a program which will return first non repeated character from String(using normal java code and Java 8 Stream API)
+	      eg -: i/p = String s = "racecars"
+	      o/p = r (r is first character from string which will non repeated)
+9. Write Factorial Program
+10. Write Febnosis Series Program
+11. Find Duplicate Element From List (Using Java 8 Stream Api)
+    eg -: i/p = List<String> list = List.of("Apple","Banana","Apple");
+          o/p = Apple (because Apple is duplicate)
+12. Find Count of Each Element from integer list using java 8 Stream Api
+13. Find Largest no From Array using normal Java code and Java Stream Api
+14.  Write Code for Following Requirement by recursive operation
+      i) find 3rd power of 2 using recurise 
+	  eg -: i/p int x=2, int y=3 
+                o/p = 8 (3rd power of 2 is 8 ....2*2*2)
+      ii) reverse String using Recursive Function
+      iii) print 1 to 10 num using recursive operation
+15. Wrire a Code For Following requirement
+     //i) reversed char Array using for loop
+     //ii) reversed String using for loop as well as String builder
+    // iii) reversed each String from String Array using String builder
+     //iv) reversed each String from String Array using for loop
+     v) reversed no Array using for loop
+16. Write a Runtime Polymorphism Program like Animal, Cat dog
+17. Write a Code For Second Largest no for following Requirements
+     i) find Second largest no from list of integer using java Stream API
+     ii) find Second largest no from list of integer using normal for loop
+     iii) find Second largest no from Arrays of String no using java Stream API
+     iv) find Second largest no from Arrays of String no using normal for loop
+18. Find Max/longest Length of substring 
+     eg -: i/p = String s = "ABCABCC";
+           o/p = 3
+     eg -: i/p=  String s = "ABCD";
+           o/p = 4
+19. Write a code for following String Operation
+    i). from list of Integer print no that starts with 1 using Java 8 Stream API
+        eg -: i/p = List<Integer>list = Arrays.asList(10,15,8,49,25,98,32);
+              o/p = 10, 15
+    ii) from list of Integer print no that starts with 1 using Java 8 Stream API
+         eg -: i/p = List<Integer>list = Arrays.asList(-1,10,15,8,49,25,98,32);
+              o/p = -1, 10, 15
+    iii) from list of Integer print no that starts with 1 using normal for loop
+         eg -: i/p = List<Integer>list = Arrays.asList(-1,10,15,8,49,25,98,32);
+              o/p = -1, 10, 15
+20. Find Longest Prefix from String Array
+    eg-: i/p = {"amazon","amazed","amaze","amazing","amazes"};
+         o/p = "amaz";
+
+21. Return min, max and avg value at a time from int array using Summary statistics method and normal class method(Create class with varible min,max, avg generate getter, setter, constructor, toString method and return that constructor through method by Applying required logic)
+22. Find Most Repeated character and its count from String using normal For loop and Stream API
+23. Write a program String and no is palindrome or not by using for loop and java stream API
+24. Write Program for Patter stars (upper side tringle and downword side tringle)
+25. Print 1 to 100 number using Executor Service interface and normal thread creation
+26. Print no text from List of String
+    eg -: i/p = {"one","2wo","3hree","four","5ve"}
+          o/p = 2wo,3hree, 5ve  
+27. Query Based Question
+    1. you have emp table(empName, empJoiningDate) find the count of emp who is joined in 2020 using java strem API
+    2. you have Student table(sname,age) sort student asending and desending order on the basis of age using java stream API
+    3. find 2nd and 3rd max salary from emp table using java stream api
+    4. find emp whos salary more than 4000 using java stream API
+    5. reverse emp on the basis of id using java stream API
+28. Given a code which contains Statis block, constructor (Parameterized, Parameterless), Print Statement find sequence of Execution
+29. Write a Code for Singleton design pattern how to create Singleton Class also how to break Singleton(eg Reflection,CLoning) and to Prevent from break
+30. Write a Code For Following Requirements using Java Stream API
+    //i) Reversed String Array
+    //ii) Reversed Integer Array
+    //iii) Reversed Long Array 
+31. Sort String on the basis if length
+    eg -: i/p = "Akshay is best";
+          o/p = "is best Akshay";
+32. From Integer list return square of each no
+    eg-: i/p = {1,2,4,6};
+         o/p = {1,4,16,36};
+33. Do following String Manuplation Operation
+    i) Make Alternate Upper and lower case character from String i/p = "Akshay" -> o/p = "AkShAy";
+    //ii) Make All Character As uppercase from String  i/p = "Akshay" -> o/p = "AKSHAY";
+    iii) Using String Builder make String Reverse0
+34. Swapping no with and without third variable
+35. Find Unique element from list using java stream Api
+    eg -: i/p = {1,1,2,3,3,3,4,4};
+          o/p= 2
+36. write program for upcasting
+37. Write flat map program
+    eg -: i/p = Object[] array = { 1, 2, new Object[] { 3, 4, new Object[] { 5 }, 6, 7 }, 8, 9, 10 };
+          o/p = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] 
+38. Remove Duplicate Character from String using java 8 APi
+    i) eg -> i/p = String s= "apple";
+           o/p = "app";
+   ii) eg -> i/p = String s= "Hello Akshay Kadam";
+           o/p = "olleH yahskA madaK";
+  iii) eg -: i/p = {"apple","banana","mango","grape"};
+             o/p = {"aple","ban","grape","mango"};
+  iv) eg -: i/p = string s = "Java is great and java is powerful";
+            o/p = "Java is great and powerful";(removed dup words like Java and is)
+   v) Remove dup from List of String ignoring case sensitive
+      eg -: i/p ={"Alice","alice","Bob","BOB","Charlie"};
+            o/p = {alice,bob,charlie};
+39. Using Java Stream 8 APi find owels from String
+40. Print 1 to 100 prime no using java 8 stream API
+41. Find First non repeated character from String using java 8 stream API
+42. write simple addition functional interface program using lambda expression 
+43. Write simple code for predicates,consumer and suppliers using java 8
+44. there is 2 list of string convert it into 1 list using java stream api
+45. there is Array of String =["Java is good","Spring Boot is also good"] 
+     o/p String str = "Java,is,god,Spring,boot,is,als,god";
+46. write singleton desing pattern code write code for how to break singleton(cloning,refletion), also write code how to prevent cloning and reflection,also      
+    how to provide thread safty to singleton(eger initialization ,lazy initilization)
